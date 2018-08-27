@@ -26,7 +26,7 @@ Contact:
 
 This source codes are used to execute the forward process of Convolutional Neural Networks (CNN) for images input. Such source code was written in the C++ Language, in which can be running in sequential or in parallel. In addition, a source code of Multilayer Perceptron (MLP) was developed in R language to study the impact of dropout and regularization terms during the learning process.
 
-##Information about directories
+## Information about directories
 
 ./include	- This directory contains all CNN classes. It is ready for 3-layer CNNs but it can be easily adapted to work with more layers
 
