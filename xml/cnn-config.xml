@@ -1,0 +1,15 @@
+<cnn inputs="./database/smallTestingDataset/list.txt" labels="./database/smallTestingDataset/classesid.txt" nlayers="2" minvalue="0" maxvalue="1" kernel-weights-file="" file-random-kernel-weights="kernelRandom.txt">
+	<layers>
+		<layer nneurons="5">
+			<normalization nrows="0" ncols="0"/>
+			<kernel nrows="15" ncols="15"/>
+			<maxpooling rowstride="5" colstride="5" rowpooling="5" colpooling="5" />
+		</layer>
+		<layer nneurons="5">
+			<normalization nrows="0" ncols="0"/>
+			<kernel nrows="15" ncols="15"/>
+			<maxpooling rowstride="5" colstride="5" rowpooling="5" colpooling="5" />
+		</layer>
+	</layers>
+	<final-normalization nrows="0" ncols="0"/>
+</cnn>
