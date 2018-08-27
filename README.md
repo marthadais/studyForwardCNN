@@ -60,9 +60,11 @@ Before starting, it is necessary to have those libraries:
 
 3. armadillo:
 
-	3.1 LAPACK
-	3.2 BLAS
-	3.3 ATLAS
+    3.1. LAPACK
+    
+    3.2. BLAS
+    
+    3.3. ATLAS
 
 ## Compiling
 
@@ -97,7 +99,7 @@ For run in parallel mode, execute:
 ### Summary:
  - For each image:
      - For each layer:
-         - Normalize image
+        - Normalize image
         - Convolve image in each depth
         - Sum the images by depth
         - Apply maximum pooling (in one image)
